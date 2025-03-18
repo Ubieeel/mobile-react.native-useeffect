@@ -10,7 +10,7 @@ export default function App() {
 
   useEffect(() => {
     const fetchUsers = async () => {
-      const result = await fetch('http://localhost:3000/user/list')
+      const result = await fetch('http://localhost:3000/user')
       const data = await result.json()
       console.log(data)
       setUsers(data)
