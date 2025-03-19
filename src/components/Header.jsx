@@ -7,9 +7,9 @@ export default function Header(){
         <View style={styles.container}>
             <Image
                 style={styles.avatar}
-                source={'https://github.com/renancavichi.png'}
+                source={'https://github.com/ubieeel.png'}
             />
-            <Text style={styles.nome}>Renan Cavichi</Text>
+            <Text style={styles.nome}>Monteiro</Text>
             <Entypo style={styles.menu} name="menu" size={44} color="black" />
         </View>
     )
